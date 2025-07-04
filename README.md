@@ -109,4 +109,6 @@ Cashaz is building the world's first continental credit passport system, transfo
 
 ---
 
-© 2025 Cashaz. Building the future of African SME finance. 🚀 
+© 2025 Cashaz. Building the future of African SME finance. 🚀
+
+**Live Site**: https://cashaz-2lq5e1lnz-thabhelos-projects.vercel.app 
