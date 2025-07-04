@@ -56,7 +56,7 @@ export default function Contact() {
 
   return (
     <div className="contact-container">
-      <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 2rem 3rem' }}>
+      <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 2rem 4rem' }}>
         <motion.div
           className="text-center"
           initial={{ opacity: 0, y: 20 }}
@@ -67,8 +67,10 @@ export default function Contact() {
             fontSize: '3.5rem', 
             fontWeight: '900', 
             color: '#2d1b69', 
-            marginBottom: '1rem',
-            lineHeight: '1.1'
+            marginBottom: '1.5rem',
+            lineHeight: '1.1',
+            textAlign: 'center',
+            margin: '0 auto 1.5rem auto'
           }}>
             Partner with <span style={{ color: '#8b5cf6' }}>Cashaz</span>
           </h1>
@@ -95,10 +97,11 @@ export default function Contact() {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <h2 style={{ 
-              fontSize: '1.5rem', 
+              fontSize: '1.75rem', 
               fontWeight: '700', 
               color: '#2d1b69', 
-              marginBottom: '1.5rem' 
+              marginBottom: '2rem',
+              textAlign: 'center'
             }}>
               Get in Touch
             </h2>
@@ -130,10 +133,11 @@ export default function Contact() {
             transition={{ duration: 0.5, delay: 0.4 }}
           >
             <h2 style={{ 
-              fontSize: '1.5rem', 
+              fontSize: '1.75rem', 
               fontWeight: '700', 
               color: '#2d1b69', 
-              marginBottom: '1.5rem' 
+              marginBottom: '2rem',
+              textAlign: 'center'
             }}>
               Send us a message
             </h2>
@@ -211,7 +215,7 @@ export default function Contact() {
 
         {/* Back to Home */}
         <motion.div
-          style={{ textAlign: 'center', marginTop: '3rem' }}
+          style={{ textAlign: 'center', marginTop: '4rem' }}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.6 }}
@@ -221,11 +225,14 @@ export default function Contact() {
             style={{
               display: 'inline-flex',
               alignItems: 'center',
-              padding: '0.75rem 1.5rem',
+              padding: '1rem 2rem',
               color: '#8b5cf6',
-              fontWeight: '500',
+              fontWeight: '600',
               textDecoration: 'none',
-              transition: 'color 0.3s ease'
+              transition: 'all 0.3s ease',
+              borderRadius: '0.5rem',
+              border: '2px solid #8b5cf6',
+              fontSize: '1.05rem'
             }}
           >
             ← Back to Home
