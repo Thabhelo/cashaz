@@ -40,4 +40,4 @@ pids
 *.swo
 
 # OS generated files
-Thumbs.db 
+Thumbs.db .env

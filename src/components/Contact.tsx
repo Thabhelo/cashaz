@@ -38,7 +38,7 @@ export default function Contact() {
           from_name: form.name,
           to_name: "Cashaz Team",
           from_email: form.email,
-          to_email: "hello@cashaz.com",
+          to_email: "thabhelo.duve@talladega.edu",
           message: form.message,
         },
         process.env.REACT_APP_EMAILJS_PUBLIC_KEY || ''
@@ -108,7 +108,7 @@ export default function Contact() {
             <div>
               <div className="contact-info-item">
                 <Mail className="contact-info-icon" />
-                <span style={{ color: '#64748b' }}>hello@cashaz.com</span>
+                <span style={{ color: '#64748b' }}>thabhelo.duve@talladega.edu</span>
               </div>
               <div className="contact-info-item">
                 <Phone className="contact-info-icon" />
