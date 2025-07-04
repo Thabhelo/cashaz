@@ -22,10 +22,7 @@ const Header: React.FC<HeaderProps> = ({ scrollY }) => {
     }
   };
 
-  const handleContactClick = () => {
-    // Always navigate to contact page
-    // The CTA section will handle scrolling on home page if needed
-  };
+
 
   const headerVariants = {
     initial: {

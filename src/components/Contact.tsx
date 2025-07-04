@@ -122,23 +122,7 @@ export default function Contact() {
               </div>
             </div>
 
-            <div className="contact-highlight-box">
-              <h3 style={{ 
-                fontSize: '1.125rem', 
-                fontWeight: '600', 
-                color: '#2d1b69', 
-                marginBottom: '0.75rem' 
-              }}>
-                What we're looking for:
-              </h3>
-              <ul style={{ color: '#64748b', lineHeight: '1.8' }}>
-                <li style={{ marginBottom: '0.5rem' }}>• Financial institutions seeking innovation</li>
-                <li style={{ marginBottom: '0.5rem' }}>• Investors passionate about African growth</li>
-                <li style={{ marginBottom: '0.5rem' }}>• Government partners and regulators</li>
-                <li style={{ marginBottom: '0.5rem' }}>• Technology collaborators</li>
-                <li style={{ marginBottom: '0.5rem' }}>• SME networks and business associations</li>
-              </ul>
-            </div>
+
           </motion.div>
 
           {/* Contact Form */}
