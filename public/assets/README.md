@@ -1,19 +1,19 @@
 # Assets Folder
 
-## How to Add Your Pitch Deck
+## How to Add Your Whitepaper
 
-1. Place your PDF pitch deck file in this folder
-2. Name it `cashaz-pitch-deck.pdf`
-3. The "View Pitch Deck" buttons throughout the site will automatically link to this file
+1. Place your PDF whitepaper file in this folder
+2. Name it `whitepaper.pdf`
+3. The "View Whitepaper" buttons throughout the site will automatically link to this file
 
 ## File Requirements
 
-- **File Name**: `cashaz-pitch-deck.pdf`
+- **File Name**: `whitepaper.pdf`
 - **File Type**: PDF
 - **Recommended Size**: Under 10MB for optimal loading
 
 ## Current Status
 
-❌ **PDF Not Found**: Please add your `cashaz-pitch-deck.pdf` file to this folder.
+✅ **PDF Found**: `whitepaper.pdf` is ready to view.
 
-Once the PDF is added, users will be able to view the pitch deck by clicking the "View Pitch Deck" buttons on the homepage and contact section. 
+Users can view the whitepaper by clicking the "View Whitepaper" buttons on the homepage and contact section. 

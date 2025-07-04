@@ -119,14 +119,14 @@ const Hero: React.FC = () => {
 
           <motion.div className="hero-buttons" variants={itemVariants}>
             <motion.a 
-              href="/assets/cashaz-pitch-deck.pdf" 
+                              href="/assets/whitepaper.pdf" 
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-primary btn-pitch-deck"
               whileHover={{ y: -3, scale: 1.05 }}
               whileTap={{ scale: 0.98 }}
             >
-              📋 View Pitch Deck
+                              📋 View Whitepaper
             </motion.a>
             <motion.a 
               href="#solution" 

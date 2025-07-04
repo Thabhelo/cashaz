@@ -23,12 +23,8 @@ const Header: React.FC<HeaderProps> = ({ scrollY }) => {
   };
 
   const handleContactClick = () => {
-    if (isHomePage) {
-      scrollToSection('contact');
-    } else {
-      // Navigate to contact page
-      window.location.href = '/contact';
-    }
+    // Always navigate to contact page
+    // The CTA section will handle scrolling on home page if needed
   };
 
   const headerVariants = {
@@ -88,9 +84,9 @@ const Header: React.FC<HeaderProps> = ({ scrollY }) => {
               </a>
             </motion.li>
             <motion.li whileHover={{ scale: 1.05 }}>
-              <a href="#contact" onClick={(e) => { e.preventDefault(); handleContactClick(); }}>
+              <Link to="/contact">
                 Contact
-              </a>
+              </Link>
             </motion.li>
           </motion.ul>
         </nav>

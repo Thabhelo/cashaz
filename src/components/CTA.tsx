@@ -77,7 +77,7 @@ const CTA: React.FC = () => {
             </motion.div>
           </Link>
           <motion.a 
-            href="/assets/cashaz-pitch-deck.pdf" 
+                          href="/assets/whitepaper.pdf" 
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-outline"
@@ -89,7 +89,7 @@ const CTA: React.FC = () => {
             }}
             whileTap={{ scale: 0.98 }}
           >
-            View Pitch Deck
+                          View Whitepaper
           </motion.a>
         </motion.div>
       </div>
