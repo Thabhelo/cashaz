@@ -7,7 +7,6 @@ import { toast } from "sonner";
 interface FormState {
   name: string;
   email: string;
-  company: string;
   message: string;
 }
 
@@ -15,7 +14,6 @@ export default function Contact() {
   const [form, setForm] = useState<FormState>({
     name: "",
     email: "",
-    company: "",
     message: "",
   });
   const [loading, setLoading] = useState<boolean>(false);
@@ -41,14 +39,13 @@ export default function Contact() {
           to_name: "Cashaz Team",
           from_email: form.email,
           to_email: "hello@cashaz.com",
-          company: form.company,
           message: form.message,
         },
         process.env.REACT_APP_EMAILJS_PUBLIC_KEY || ''
       );
 
       toast.success("Thank you! We will get back to you as soon as possible.");
-      setForm({ name: "", email: "", company: "", message: "" });
+      setForm({ name: "", email: "", message: "" });
     } catch (error) {
       console.error("Error sending message:", error);
       toast.error("Something went wrong. Please try again.");
@@ -175,22 +172,7 @@ export default function Contact() {
                   required
                 />
               </div>
-              <div className="contact-form-field">
-                <label
-                  htmlFor="company"
-                  className="contact-form-label"
-                >
-                  Company/Organization
-                </label>
-                <input
-                  type="text"
-                  name="company"
-                  id="company"
-                  value={form.company}
-                  onChange={handleChange}
-                  className="contact-form-input"
-                />
-              </div>
+
               <div className="contact-form-field">
                 <label
                   htmlFor="message"
@@ -201,7 +183,7 @@ export default function Contact() {
                 <textarea
                   name="message"
                   id="message"
-                  rows={4}
+                  rows={6}
                   value={form.message}
                   onChange={handleChange}
                   placeholder="Tell us about your interest in Cashaz, potential partnership opportunities, or any questions you have..."
